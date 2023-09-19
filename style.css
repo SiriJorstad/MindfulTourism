@@ -1,0 +1,173 @@
+@import url(https://db.onlinewebfonts.com/c/7c6661efce01eac269383bac79303c1b?family=Arial+Narrow);
+@font-face {
+  font-family: "Arial Narrow";
+  src: url("https://db.onlinewebfonts.com/t/7c6661efce01eac269383bac79303c1b.eot");
+  src: url("https://db.onlinewebfonts.com/t/7c6661efce01eac269383bac79303c1b.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/7c6661efce01eac269383bac79303c1b.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/7c6661efce01eac269383bac79303c1b.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/7c6661efce01eac269383bac79303c1b.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/7c6661efce01eac269383bac79303c1b.svg#Arial Narrow")
+      format("svg");
+}
+
+/* SEVERAL PAGES */
+html {
+  box-sizing: border-box;
+}
+
+header {
+  color: black;
+  align-items: center;
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  font-size: 30px;
+  z-index: 2;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Arial Narrow", Arial, sans-serif;
+  margin: 0;
+}
+
+.background {
+  background: linear-gradient(180deg, #086a8f 0%, #07cb9a 100%);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+a {
+  color: black;
+  padding-right: 5px;
+  text-decoration: none;
+}
+
+.name-fixed {
+  font-size: 30px;
+  position: fixed;
+  right: 30px;
+  top: 10px;
+  margin: 0;
+}
+
+.box {
+  background-color: rgba(236, 236, 236, 0.69);
+  width: 900px;
+  position: absolute;
+  top: 160px;
+  left: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box p {
+  font-size: 30px;
+  padding: 40px;
+}
+
+.box img {
+  width: 115px;
+  height: 115px;
+  position: absolute;
+  left: -65px;
+  top: -15px;
+}
+
+/* INDEX */
+.background-image {
+  background-repeat: no-repeat;
+  display: flex;
+  background-size: cover;
+}
+
+ul {
+  list-style-type: none;
+  position: absolute;
+  left: 500px;
+  top: 300px;
+}
+.nav-index-mission {
+  font-size: 50px;
+  font-weight: bold;
+}
+.nav-index-experiences {
+  font-size: 70px;
+}
+
+.nav-index-contact a {
+  font-size: 55px;
+  font-weight: bold;
+  color: white;
+}
+
+h1 {
+  font-size: 18px;
+  color: black;
+  position: fixed;
+  right: 30px;
+  top: 25px;
+  font-weight: 100;
+  padding-top: 5px;
+}
+
+/* ABOUT US/MISSION */
+
+button {
+  font-size: 18px;
+  cursor: pointer;
+  background-color: #86cebe;
+  border-radius: 32px;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+button:hover {
+  opacity: 0.5;
+}
+
+/* EXPERIENCES */
+.experiences {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  width: 1000px;
+  margin: auto;
+  top: 80px;
+  position: relative;
+}
+.experiences img {
+  width: 100%;
+  height: 320px;
+}
+.experiences p {
+  margin: 0;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.experiences div:nth-child(even) {
+  text-align: right;
+}
+
+/* CONTACT US */
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+.logo {
+  align-items: center;
+  width: 25px;
+  height: 25px;
+}
